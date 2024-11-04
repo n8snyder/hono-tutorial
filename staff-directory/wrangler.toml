@@ -1,0 +1,23 @@
+name = "staff-directory"
+compatibility_date = "2024-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = "./dist"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "employee-avatars"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "staff-directory"
+database_id = "b88db963-afca-4bc1-b917-54e08b4da4c4"
+
+# [ai]
+# binding = "AI"
